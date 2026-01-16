@@ -8,9 +8,9 @@
 [![Built with Claude](https://img.shields.io/badge/🛠️%20Built%20with-Claude%20Code-orange)](https://www.anthropic.com/)
 [![Anthropic](https://img.shields.io/badge/Anthropic-API-black)](https://console.anthropic.com/)
 
-<img src="docs/images/claude-logo.png" alt="Claude AI" width="120"/>
 
-### 🤖 **100% Built with Claude AI by Anthropic**
+
+###  **100% Built with Claude AI by Anthropic**
 
 *This entire project was conceived, designed, and coded using Claude AI*
 
@@ -25,11 +25,11 @@
 > **This project is a showcase of Claude AI's capabilities.** Every line of code, every piece of documentation, and every design decision in this repository was created by [Claude](https://www.anthropic.com/claude), Anthropic's AI assistant.
 
 **GPU Gaming Advisor** demonstrates how Claude AI can:
-- 🏗️ **Architect** complete software solutions from scratch
-- 💻 **Write** production-quality Python code
-- 📚 **Create** comprehensive documentation
-- 🎯 **Solve** real-world problems with intelligent analysis
-- 🔗 **Integrate** with its own API for recursive AI-powered features
+ **Architect** complete software solutions from scratch
+ **Write** production-quality Python code
+**Create** comprehensive documentation
+**Solve** real-world problems with intelligent analysis
+ **Integrate** with its own API for recursive AI-powered features
 
 ### Why Claude?
 
@@ -46,26 +46,26 @@ Claude is Anthropic's frontier AI assistant, known for being helpful, harmless, 
 
 ![GPU Gaming Advisor Demo](docs/images/demo.gif)
 
-## ✨ Features
+##  Features
 
-### 🤖 Claude AI-Powered Intelligence
+###  Claude AI-Powered Intelligence
 - **Smart Recommendations** - Claude analyzes your GPU specs and provides tailored game settings
 - **Natural Language Chat** - Ask Claude anything about gaming optimization in plain English
 - **Intelligent FPS Prediction** - Claude estimates performance based on hardware analysis
 - **Contextual Tips** - Get personalized advice that considers your specific setup
 
-### 🔍 Hardware Analysis
+###  Hardware Analysis
 - **GPU Detection & Analysis** - Automatically detects your GPU and retrieves detailed specifications
 - **Real-time Monitoring** - Track GPU temperature, usage, and memory in real-time
 - **Health Assessment** - Claude analyzes your GPU's current status and suggests improvements
 
-### 🎮 Gaming Optimization  
+###  Gaming Optimization  
 - **Game Database** - Extensive database of popular games with requirements
 - **Optimal Settings** - Get the perfect balance of quality and performance
 - **Multi-Resolution Support** - Recommendations for 1080p, 1440p, and 4K gaming
 - **Profile Export** - Save and share your optimized settings
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -165,7 +165,7 @@ Current Status:
 🎮 Game: Cyberpunk 2077
 ━━━━━━━━━━━━━━━━━━━━━━━
 
-📊 Claude AI Recommendations:
+ Claude AI Recommendations:
 
 Based on your RTX 3070, here are the optimal settings for
 Cyberpunk 2077 at 1080p targeting 60 FPS:
@@ -182,15 +182,15 @@ Cyberpunk 2077 at 1080p targeting 60 FPS:
 │ Ambient Occlusion   │ High         │
 └─────────────────────┴──────────────┘
 
-📈 Expected Performance: 58-72 FPS (avg: 65 FPS)
+ Expected Performance: 58-72 FPS (avg: 65 FPS)
 
-💡 Tips:
+ Tips:
 • Enable DLSS for significant FPS boost with minimal quality loss
 • Ray Tracing at Medium provides good visuals without major performance hit
 • Consider lowering Crowd Density in dense areas if you experience drops
 ```
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 gpu-gaming-advisor/
@@ -263,7 +263,7 @@ pytest tests/test_gpu_detector.py
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤖 About Claude & Anthropic
+##  About Claude & Anthropic
 
 <div align="center">
 
@@ -277,10 +277,10 @@ This project was **entirely created by Claude**, Anthropic's AI assistant. Claud
 
 [Claude](https://www.anthropic.com/claude) is a family of AI models created by [Anthropic](https://www.anthropic.com/). Claude excels at:
 
-- 💬 **Thoughtful conversation** - Engaging in nuanced, contextual dialogue
-- 📝 **Content creation** - Writing code, documentation, and creative content
-- 🔍 **Analysis** - Understanding complex information and providing insights
-- 🛠️ **Problem-solving** - Breaking down challenges and offering solutions
+-  **Thoughtful conversation** - Engaging in nuanced, contextual dialogue
+-  **Content creation** - Writing code, documentation, and creative content
+-  **Analysis** - Understanding complex information and providing insights
+-  **Problem-solving** - Breaking down challenges and offering solutions
 
 ### Get Your Own Claude API Key
 
@@ -305,7 +305,7 @@ Every aspect of this project showcases Claude's capabilities:
 | Test Suite | ✅ |
 | Game Database | ✅ |
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [**Anthropic**](https://www.anthropic.com/) - For creating Claude AI, which built this entire project
 - [**Claude AI**](https://www.anthropic.com/claude) - The AI assistant that designed and coded everything you see here
@@ -313,7 +313,7 @@ Every aspect of this project showcases Claude's capabilities:
 - [Rich](https://github.com/Textualize/rich) - For beautiful terminal output
 - [Typer](https://github.com/tiangolo/typer) - For CLI framework
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 FPS predictions and recommendations are estimates based on available data and Claude AI analysis. Actual performance may vary depending on system configuration, game updates, drivers, and other factors. Always test settings in-game for best results.
 
@@ -321,7 +321,7 @@ FPS predictions and recommendations are estimates based on available data and Cl
 
 <div align="center">
 
-### 🤖 Built Entirely with Claude AI
+###  Built Entirely with Claude AI
 
 <a href="https://www.anthropic.com/claude">
   <img src="https://img.shields.io/badge/Created%20by-Claude%20AI-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=" alt="Built with Claude"/>
@@ -338,6 +338,6 @@ Every line of code was written by Claude, Anthropic's AI assistant.</sub>
 
 <br/>
 
-**Made with 🤖 by Claude AI | Powered by Anthropic**
+**Made with  by Claude AI | Powered by Anthropic**
 
 </div>
