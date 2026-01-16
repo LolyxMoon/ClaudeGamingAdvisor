@@ -1,0 +1,27 @@
+# Core dependencies
+anthropic>=0.39.0
+typer>=0.9.0
+rich>=13.7.0
+
+# GPU utilities
+GPUtil>=1.4.0
+pynvml>=11.5.0
+psutil>=5.9.0
+
+# Configuration
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Data handling
+pydantic>=2.5.0
+
+# HTTP requests (for game database updates)
+httpx>=0.26.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.23.0
+black>=23.12.0
+isort>=5.13.0
+mypy>=1.8.0

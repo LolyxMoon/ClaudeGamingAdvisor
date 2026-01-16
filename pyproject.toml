@@ -1,0 +1,157 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpu-gaming-advisor"
+version = "1.0.0"
+description = "🤖 AI-powered GPU gaming optimization tool - 100% Built with Claude AI by Anthropic"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Claude AI (Anthropic)", email = "https://www.anthropic.com/claude"}
+]
+maintainers = [
+    {name = "Claude AI (Anthropic)", email = "https://www.anthropic.com/claude"}
+]
+keywords = [
+    "gpu",
+    "gaming",
+    "optimization",
+    "nvidia",
+    "claude",
+    "claude-ai",
+    "anthropic",
+    "ai",
+    "artificial-intelligence",
+    "fps",
+    "performance",
+    "graphics",
+    "settings",
+    "machine-learning",
+    "built-with-claude"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment",
+    "Topic :: System :: Hardware",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "anthropic>=0.39.0",
+    "typer>=0.9.0",
+    "rich>=13.7.0",
+    "GPUtil>=1.4.0",
+    "pynvml>=11.5.0",
+    "psutil>=5.9.0",
+    "pyyaml>=6.0.1",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.5.0",
+    "httpx>=0.26.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-asyncio>=0.23.0",
+    "black>=23.12.0",
+    "isort>=5.13.0",
+    "mypy>=1.8.0",
+    "flake8>=7.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/gpu-gaming-advisor"
+Documentation = "https://github.com/yourusername/gpu-gaming-advisor#readme"
+Repository = "https://github.com/yourusername/gpu-gaming-advisor.git"
+Issues = "https://github.com/yourusername/gpu-gaming-advisor/issues"
+Changelog = "https://github.com/yourusername/gpu-gaming-advisor/blob/main/CHANGELOG.md"
+"Claude AI" = "https://www.anthropic.com/claude"
+"Anthropic" = "https://www.anthropic.com/"
+"Claude API" = "https://console.anthropic.com/"
+"Built with Claude" = "https://github.com/yourusername/gpu-gaming-advisor/blob/main/CLAUDE.md"
+
+[project.scripts]
+gpu-advisor = "gpu_gaming_advisor.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gpu_gaming_advisor = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+skip_gitignore = true
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "src"
+]
+
+[tool.coverage.run]
+source = ["src/gpu_gaming_advisor"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]

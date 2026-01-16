@@ -1,0 +1,65 @@
+# GPU Gaming Advisor Configuration
+# Copy this file to ~/.gpu-gaming-advisor/config.yaml or ./config.yaml
+
+# Anthropic API Configuration
+anthropic:
+  # API key - can also be set via ANTHROPIC_API_KEY environment variable
+  api_key: ${ANTHROPIC_API_KEY}
+  
+  # Model to use for AI recommendations
+  # Options: claude-sonnet-4-20250514, claude-opus-4-20250514
+  model: claude-sonnet-4-20250514
+
+# GPU Monitoring Configuration
+monitoring:
+  # Refresh rate in seconds
+  refresh_rate: 1.0
+  
+  # Whether to log metrics to file
+  log_metrics: false
+  
+  # Log file path (if log_metrics is true)
+  log_path: ~/.gpu-gaming-advisor/logs/metrics.log
+
+# User Preferences
+preferences:
+  # Default target FPS
+  target_fps: 60
+  
+  # Default optimization priority
+  # Options: quality, balanced, performance
+  priority: balanced
+  
+  # Default resolution
+  resolution: 1920x1080
+  
+  # Default quality preset
+  quality_preset: high
+
+# Game Database Configuration
+database:
+  # Path to custom games database (optional)
+  custom_path: null
+  
+  # Auto-update from remote (future feature)
+  auto_update: false
+
+# Output Configuration
+output:
+  # Default profile export directory
+  profiles_dir: ~/.gpu-gaming-advisor/profiles
+  
+  # Export format
+  format: json
+
+# UI Configuration
+ui:
+  # Color theme
+  # Options: default, dark, light
+  theme: default
+  
+  # Show tips in output
+  show_tips: true
+  
+  # Verbose output
+  verbose: false
