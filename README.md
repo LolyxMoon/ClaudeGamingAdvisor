@@ -1,4 +1,4 @@
-# 🎮 GPU Gaming Advisor
+# FPSClaude
 
 <div align="center">
 
